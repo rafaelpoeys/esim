@@ -4,7 +4,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // WhatsApp configuration
-    const WHATSAPP_PHONE = '5500000000000'; // Insira o número do WhatsApp com DDD aqui
+    const WHATSAPP_PHONE = '5518981705679'; // Insira o número do WhatsApp com DDD aqui
 
     // Attach click events to all "Select Plan" buttons
     const buyButtons = document.querySelectorAll('.buy-btn');
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function redirectToWhatsApp(plan) {
         const message = `Hello! I am on invictus.center and I would like to buy the *${plan}* eSIM for my trip to Brazil.`;
         const encodedMessage = encodeURIComponent(message);
-        const whatsappUrl = `https://wa.me/5518981705679?text=${encodedMessage}`;
+        const whatsappUrl = `https://wa.me/${WHATSAPP_PHONE}?text=${encodedMessage}`;
 
         // Open in new window/tab securely
         window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
