@@ -1,0 +1,6 @@
+# Permite que todos os buscadores e Crawlers de IA indexem o site
+User-agent: *
+Allow: /
+
+# Aponta a localização exata do Sitemap
+Sitemap: https://connect.invictus.center/sitemap.xml
