@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function redirectToWhatsApp(plan) {
         const message = `Hello! I am on invictus.center and I would like to buy the *${plan}* eSIM for my trip to Brazil.`;
         const encodedMessage = encodeURIComponent(message);
-        const whatsappUrl = `https://wa.me/27981398787?text=${encodedMessage}`;
+        const whatsappUrl = `https://wa.me/5518981705679?text=${encodedMessage}`;
 
         // Open in new window/tab securely
         window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
